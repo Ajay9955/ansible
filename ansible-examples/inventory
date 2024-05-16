@@ -1,4 +1,6 @@
-[t1]
+# replace with your target servers IP
+
+[t1] # chnage the group names as u wish 
 172.31.20.116
 
 [t2]
