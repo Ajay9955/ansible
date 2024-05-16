@@ -1,0 +1,8 @@
+---
+- name: docker installation playbook
+  hosts : t1
+  become : true
+
+
+  roles:
+    - first-role/docker-installation
