@@ -1,4 +1,4 @@
-# ansible
+# Ansible
 
 Ansible is a configuration management tool.
 
@@ -19,7 +19,9 @@ file
 shell
 command
 ping
-service , etc....
+service 
+user
+group, etc....
 
 " inventory file " ---- contains the ip address of target or remote servers. IP addresses can be grouped base on the req 
 
@@ -57,7 +59,7 @@ skeleton or structure of the playbook :
       notify : handler-names
 
 you can write multipe tasks under tasks section.
-------------------------------------------------------------
+
 Ansible handlers
 
 We can write these handlers in the handlers folder , In tasks we can mention the name of the handler with notify (notify : handler-names) so when the task gets executed the handler gets notified and it performs the required actions.
